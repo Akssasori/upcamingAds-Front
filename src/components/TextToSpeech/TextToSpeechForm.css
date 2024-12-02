@@ -1,0 +1,98 @@
+/* Estilo geral do contêiner */
+.text-to-speech-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    height: 100vh;
+}
+
+/* Estilo da coluna de configurações */
+.settings-container {
+    flex: 1;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.settings h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.settings label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.settings label span {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.settings input[type="range"] {
+    width: 100%;
+    margin-left: 10px;
+}
+
+/* Estilo do campo de entrada de texto */
+.text-input-container {
+    flex: 2;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.text-input-container h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.text-input-container textarea {
+    width: 100%;
+    height: 200px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 16px;
+    resize: none;
+}
+
+.text-input-container button {
+    align-self: flex-start;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.text-input-container button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo da resposta */
+.response-container {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
