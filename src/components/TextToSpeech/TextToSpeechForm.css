@@ -57,11 +57,12 @@
 .text-input-container h2 {
     font-size: 20px;
     margin-bottom: 10px;
+    min-width: 800px;
 }
 
 .text-input-container textarea {
-    width: 100%;
-    height: 200px;
+    flex: 1; /* Faz a área de texto crescer para ocupar o espaço */
+    height: 150px; /* Altura padrão */
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 10px;
