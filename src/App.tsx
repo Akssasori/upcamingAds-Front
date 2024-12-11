@@ -1,5 +1,4 @@
 import './App.css'
-import React from 'react';
 import TextToSpeechForm from './components/TextToSpeech/TextToSpeechForm';
 
 

@@ -3,7 +3,7 @@ import api from "../../services/Api";
 import './TextToSpeechForm.css';
 
 const TextToSpeechForm = () => {
-  const [voiceId, setVoiceId] = useState("");
+  const [voiceId, setVoiceId] = useState("LIGIA");
   const [stability, setStability] = useState("");
   const [similarityBoost, setSimilarityBoost] = useState("");
   const [style, setStyle] = useState("");
@@ -41,6 +41,8 @@ const TextToSpeechForm = () => {
                         <span>Voice:</span>
                         <select value={voiceId} onChange={(e) => setVoiceId(e.target.value)}>
                             <option value="LIGIA">LIGIA</option>
+                            <option value="LEONARDO">LEONARDO</option>
+                            <option value="ADAM">ADAM</option>
                             {/* Adicione mais opções se necessário */}
                         </select>
                     </label>
